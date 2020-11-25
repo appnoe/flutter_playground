@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'home.dart';
 import 'gaming.dart';
-import 'crafting.dart';
+import 'maps.dart';
 import 'themedata.dart';
 
 void main() {
@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   static List<Widget> _widgets = <Widget>[
     Home(),
-    Crafting(),
+    Maps(),
     Gaming()
   ];
 
@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.handyman),
-            label: 'Crafting',
+            label: 'Karten',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.gamepad),
